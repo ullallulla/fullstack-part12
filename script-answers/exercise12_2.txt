@@ -1,0 +1,25 @@
+Script started on 2024-06-27 22:01:25+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="108" LINES="28"]
+[?2004h]0;allu@DESKTOP-ALLU: ~/fullstack/fullstack2024-part12[01;32mallu@DESKTOP-ALLU[00m:[01;34m~/fullstack/fullstack2024-part12[00m$ do[K[Kdocker [K[K[K[K[K[K[Kexitdocker run -it ubuntu bashexit[Kdocker run -it ubuntu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K9c704ecd0c69: Already exists [1BDigest: sha256:2e863c44b718727c860746568e1d54afd13b2fa71b160f5cd9058fc436217b30
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@1586a9f05715: /root@1586a9f05715:/# mkdir       ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@1586a9f05715: /root@1586a9f05715:/# ce    cd usr
+[?2004l[?2004h]0;root@1586a9f05715: /usrroot@1586a9f05715:/usr# ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@1586a9f05715: /usrroot@1586a9f05715:/usr# cd src
+[?2004l[?2004h]0;root@1586a9f05715: /usr/srcroot@1586a9f05715:/usr/src# ls
+[?2004l[?2004h]0;root@1586a9f05715: /usr/srcroot@1586a9f05715:/usr/src# mkdir app
+[?2004l[?2004h]0;root@1586a9f05715: /usr/srcroot@1586a9f05715:/usr/src# cd app/
+[?2004l[?2004h]0;root@1586a9f05715: /usr/src/approot@1586a9f05715:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@1586a9f05715: /usr/src/approot@1586a9f05715:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@1586a9f05715: /usr/src/approot@1586a9f05715:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;allu@DESKTOP-ALLU: ~/fullstack/fullstack2024-part12[01;32mallu@DESKTOP-ALLU[00m:[01;34m~/fullstack/fullstack2024-part12[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-27 22:03:57+03:00 [COMMAND_EXIT_CODE="0"]
