@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from '../util/apiClient'
 import storage from './storage'
 
 const baseUrl = '/api/blogs'
